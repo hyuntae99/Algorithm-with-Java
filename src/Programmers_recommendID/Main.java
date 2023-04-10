@@ -2,6 +2,8 @@ package Programmers_recommendID;
 
 import java.util.Scanner;
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/72410
+
 public class Main {
     public static void main(String[] args) {
 
