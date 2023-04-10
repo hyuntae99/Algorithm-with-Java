@@ -1,3 +1,5 @@
+package BOJ_11399;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Collections;
