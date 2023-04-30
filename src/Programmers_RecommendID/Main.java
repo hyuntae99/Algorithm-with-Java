@@ -1,4 +1,4 @@
-package Programmers_recommendID;
+package Programmers_RecommendID;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Programmers_sameQueue;
+package Programmers_SameQueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

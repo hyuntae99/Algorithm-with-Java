@@ -1,4 +1,4 @@
-package Programmers_babbling;
+package Programmers_Babbling;
 
 // 프로그래머스 옹알이 (2) 문제
 // https://school.programmers.co.kr/learn/courses/30/lessons/133499
