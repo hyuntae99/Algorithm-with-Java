@@ -46,7 +46,7 @@ class Solution {
                 // 스택을 오름차순으로 만들기 위해서
                 // 현재 스택보다 큰 스택이 없을 때까지
                 while (s.peek()[0] > tmp[0]) {
-                    // 그 시점의 시간을 timse 배열에 바로 저장
+                    // 그 시점의 시간을 times 배열에 바로 저장
                     times[s.peek()[1]] = tmp[1] - s.peek()[1];
                     s.pop(); // 저장한 스택은 제거
                     if (s.empty())
@@ -59,7 +59,7 @@ class Solution {
 
         // 스택이 없을 때까지
         while (!s.empty()) {
-            // timse 배열 = 최대크기 - 1 - 스택의 시간
+            // times 배열 = 최대크기 - 1 - 스택의 시간
             times[s.peek()[1]] = len - 1 - s.peek()[1];
             s.pop(); // 제거
         }
